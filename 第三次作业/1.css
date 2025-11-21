@@ -1,0 +1,47 @@
+a {
+  text-decoration: none;
+}
+
+p {
+  color: red;
+}
+
+ul li:last-child {
+  font-size: 40px;
+}
+
+ul li:nth-child(2) {
+  font-size: 30px;
+}
+
+div>div:hover {
+  background-color: yellow;
+  font-size: 10px;
+  transition: all 1s;
+}
+
+.box {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid black;
+
+
+}
+
+.box div {
+  width: 180px;
+  height: 50px;
+  background-color: grey;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html,
+body {
+  height: 100%;
+}

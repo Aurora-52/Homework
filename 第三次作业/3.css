@@ -1,0 +1,49 @@
+.box1 {
+  flex: 0 0 320px;
+  flex-basis: 320px;
+  height: 500px;
+  background-color: blue;
+}
+
+
+
+.box2 {
+  flex-flow: 1;
+  flex-shrink: 1;
+  flex-basis: 320px;
+  height: 300px;
+  background-color: green;
+}
+
+.box-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.box3 {
+  flex-shrink: 2;
+  flex-basis: 320px;
+  height: 100px;
+  background-color: orange;
+}
+
+.box4 {
+  flex-shrink: 3;
+  flex-basis: 320px;
+  height: 600px;
+  background-color: red;
+
+}
+
+div {
+  color: white;
+  border-radius: 10px;
+}
+
+body {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+}
